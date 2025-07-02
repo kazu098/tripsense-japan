@@ -46,47 +46,38 @@ This MVP is focused on building a fast, customizable, and scalable foundation us
 
 ## 🧪 Local Development
 
-### 1. Clone this repo
+### 1. リポジトリをクローン
 
 ```bash
-git clone https://github.com/[your-org]/tripsense-japan.git
+git clone https://github.com/kazu098/tripsense-japan.git
 cd tripsense-japan
 ```
 
-### 2. Install dependencies
+### 2. 依存パッケージをインストール
 
 ```bash
 pnpm install
-# or yarn / npm
 ```
 
-### 3. Set up environment variables
-
-* Copy the template file and create your `.env`:
-```bash
-cp .env.local .env
-```
-
-* Add your actual values to `.env`:
-```env
-NEXT_PUBLIC_SUPABASE_URL=https://kxkafewyhkjkphivygdk.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=[your-anon-key]
-SUPABASE_SERVICE_ROLE_KEY=[your-service-role-key]
-SUPABASE_DB_PASSWORD=[your-db-password]
-```
-
-* Get these values from your [Supabase project dashboard](https://app.supabase.com/)
-
-### 4. Set up Supabase
-
-* Push schema (optional)
-
-```bash
-supabase db push
-```
-
-### 5. Start the dev server
+### 3. フロントエンド開発サーバーを起動
 
 ```bash
 pnpm dev
+```
+
+- アクセス: http://localhost:3000
+
+### 4. （オプション）データベース機能を使用する場合
+
+#### 環境変数を設定
+
+```bash
+cp .env.local .env
+```
+`.env` にSupabaseの各種キー・パスワードを記入してください。
+
+#### Supabaseスキーマを適用
+
+```bash
+supabase db push
 ```
