@@ -1,0 +1,29 @@
+id,name,description,color
+1,英語対応,English language support available,#FFD700
+2,家族向け,Family-friendly experiences,#00CED1
+3,予約必須,Reservation required,#FF6347
+4,初心者向け,Beginner-friendly experiences,#20B2AA
+5,持ち帰り可,Take-home items included,#FF8C00
+6,夜景,Evening and night view experiences,#4B0082
+7,伝統工芸,Traditional Japanese crafts,#8B4513
+8,和食,Japanese cuisine experiences,#CD853F
+9,写真撮影,Photo opportunities available,#FF1493
+10,少人数制,Small group experiences,#FF6B6B
+11,認定講師,Experienced certified instructors,#4ECDC4
+12,衣装付き,Costume included,#45B7D1
+13,送迎付き,Transportation included,#96CEB4
+14,ホテル併設,Located within hotel,#DDA0DD
+15,博物館併設,Located within museum,#FFEAA7
+16,カフェ併設,Located within cafe,#87CEEB
+17,工房見学,Factory tour included,#98FB98
+18,季節限定,Seasonal experiences,#F0E68C
+19,雨天対応,Available even in rain,#FFB347
+20,子ども用サイズ,Children's sizes available,#FF69B4
+21,グループ対応,Group bookings available,#32CD32
+22,プライベート,Private experiences,#FF4500
+23,ラグジュアリー,Luxury experiences,#9370DB
+24,手軽体験,Quick and easy experiences,#FFD700
+25,本格体験,Authentic traditional experiences,#00CED1
+26,SNS映え,Instagram-worthy experiences,#FF6347
+27,歴史解説,Historical explanations included,#20B2AA
+28,文化体験,Deep cultural immersion,#FF8C00
