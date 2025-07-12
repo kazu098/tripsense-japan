@@ -1,0 +1,13 @@
+id,name_en,name_ja,description_en,description_ja,color,category_type
+00000000-0000-0000-0000-000000000001,Cultural Experience,文化体験,Traditional Japanese cultural activities,日本の伝統文化を体験できる,#D4A5A5,content_category
+00000000-0000-0000-0000-000000000002,Traditional Japan,歴史・伝統,Historical and traditional Japanese sites,日本の歴史・伝統を感じられる,#B8E6B8,content_category
+00000000-0000-0000-0000-000000000003,Gourmet,グルメ,Food and dining experiences,飲食体験,#FFD93D,content_category
+00000000-0000-0000-0000-000000000004,Pop Culture,ポップカルチャー,"Anime, manga, and modern Japanese culture",アニメ・マンガ・現代日本文化,#FF8A80,content_category
+00000000-0000-0000-0000-000000000005,Family Activity,ファミリーアクティビティ,Activities perfect for families with children,ファミリー向けアクティビティ,#81C784,content_category
+00000000-0000-0000-0000-000000000006,Art Architecture,アート・建築,Art museums and architectural landmarks,美術館・建築物,#64B5F6,content_category
+00000000-0000-0000-0000-000000000007,Festival Event,祭り・イベント,Festivals and seasonal events,祭り・季節イベント,#F06292,content_category
+00000000-0000-0000-0000-000000000008,Relaxation,リラクゼーション,Relaxing and healing experiences,癒し・リラックス体験,#A1887F,content_category
+00000000-0000-0000-0000-000000000009,Nature Scenery,自然・絶景,Natural landscapes and scenic views,自然・絶景スポット,#4DB6AC,content_category
+00000000-0000-0000-0000-000000000010,Shopping,ショッピング,Shopping and retail experiences,ショッピング体験,#FFB74D,content_category
+00000000-0000-0000-0000-000000000011,Nightlife,ナイトライフ,"Evening entertainment, bars, and nightlife experiences",夜のエンターテイメント・バー・クラブ体験,#9C27B0,content_category
+00000000-0000-0000-0000-000000000012,Observation Deck,展望台,Observation decks and viewpoints with panoramic views,展望台・パノラマビューポイント,#607D8B,content_category

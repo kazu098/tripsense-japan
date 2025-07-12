@@ -6,15 +6,30 @@ CREATE TABLE users (
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
+-- カテゴリテーブル
+CREATE TABLE categories (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  name_en TEXT NOT NULL,
+  name_ja TEXT NOT NULL,
+  description_en TEXT,
+  description_ja TEXT,
+  color TEXT DEFAULT '#3B82F6',
+  category_type TEXT NOT NULL CHECK (category_type IN ('traveler_type', 'content_category')),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
 -- 体験テーブル
 CREATE TABLE experiences (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  title TEXT NOT NULL,
-  description TEXT,
+  title_en TEXT NOT NULL,
+  title_ja TEXT NOT NULL,
+  description_en TEXT,
+  description_ja TEXT,
   location TEXT NOT NULL,
-  category TEXT NOT NULL,
-  thumbnail_image TEXT,
-  price_range TEXT CHECK (price_range IN ('budget', 'mid', 'luxury')),
+  area TEXT NOT NULL,
+  category_id UUID REFERENCES categories(id),
+  url TEXT,
+  notes TEXT,
   duration_hours INTEGER,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
@@ -83,6 +98,7 @@ CREATE TABLE wishlists (
 
 -- RLS有効化
 ALTER TABLE users ENABLE ROW LEVEL SECURITY;
+ALTER TABLE categories ENABLE ROW LEVEL SECURITY;
 ALTER TABLE experiences ENABLE ROW LEVEL SECURITY;
 ALTER TABLE experience_images ENABLE ROW LEVEL SECURITY;
 ALTER TABLE tags ENABLE ROW LEVEL SECURITY;
@@ -94,6 +110,9 @@ ALTER TABLE wishlists ENABLE ROW LEVEL SECURITY;
 -- 主要ポリシー
 CREATE POLICY "ユーザーは自分のプロフィールを閲覧可能" ON users
   FOR SELECT USING (auth.uid() = id);
+
+CREATE POLICY "カテゴリは誰でも閲覧可能" ON categories
+  FOR SELECT USING (true);
 
 CREATE POLICY "体験は誰でも閲覧可能" ON experiences
   FOR SELECT USING (true);
