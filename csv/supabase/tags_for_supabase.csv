@@ -1,29 +1,83 @@
 id,name,description,color
-1,英語対応,English language support available,#FFD700
-2,家族向け,Family-friendly experiences,#00CED1
-3,予約必須,Reservation required,#FF6347
-4,初心者向け,Beginner-friendly experiences,#20B2AA
-5,持ち帰り可,Take-home items included,#FF8C00
-6,夜景,Evening and night view experiences,#4B0082
-7,伝統工芸,Traditional Japanese crafts,#8B4513
-8,和食,Japanese cuisine experiences,#CD853F
-9,写真撮影,Photo opportunities available,#FF1493
-10,少人数制,Small group experiences,#FF6B6B
-11,認定講師,Experienced certified instructors,#4ECDC4
-12,衣装付き,Costume included,#45B7D1
-13,送迎付き,Transportation included,#96CEB4
-14,ホテル併設,Located within hotel,#DDA0DD
-15,博物館併設,Located within museum,#FFEAA7
-16,カフェ併設,Located within cafe,#87CEEB
-17,工房見学,Factory tour included,#98FB98
-18,季節限定,Seasonal experiences,#F0E68C
-19,雨天対応,Available even in rain,#FFB347
-20,子ども用サイズ,Children's sizes available,#FF69B4
-21,グループ対応,Group bookings available,#32CD32
-22,プライベート,Private experiences,#FF4500
-23,ラグジュアリー,Luxury experiences,#9370DB
-24,手軽体験,Quick and easy experiences,#FFD700
-25,本格体験,Authentic traditional experiences,#00CED1
-26,SNS映え,Instagram-worthy experiences,#FF6347
-27,歴史解説,Historical explanations included,#20B2AA
-28,文化体験,Deep cultural immersion,#FF8C00
+00000000-0000-0000-0000-000000000001,英語対応,English language support available,#FFD700
+00000000-0000-0000-0000-000000000002,子連れファミリー向け,Great for families with children,#00CED1
+00000000-0000-0000-0000-000000000003,予約必須,Reservation required,#FF6347
+00000000-0000-0000-0000-000000000004,初心者向け,Beginner-friendly experiences,#20B2AA
+00000000-0000-0000-0000-000000000005,持ち帰り可,Take-home items included,#FF8C00
+00000000-0000-0000-0000-000000000006,夜景,Evening and night view experiences,#4B0082
+00000000-0000-0000-0000-000000000007,伝統工芸,Traditional Japanese crafts,#8B4513
+00000000-0000-0000-0000-000000000008,和食,Japanese cuisine experiences,#CD853F
+00000000-0000-0000-0000-000000000009,写真撮影,Photo opportunities available,#FF1493
+00000000-0000-0000-0000-000000000010,少人数制,Small group experiences,#FF6B6B
+00000000-0000-0000-0000-000000000011,認定講師,Experienced certified instructors,#4ECDC4
+00000000-0000-0000-0000-000000000012,衣装付き,Costume included,#45B7D1
+00000000-0000-0000-0000-000000000013,送迎付き,Transportation included,#96CEB4
+00000000-0000-0000-0000-000000000014,ホテル併設,Located within hotel,#DDA0DD
+00000000-0000-0000-0000-000000000015,博物館併設,Located within museum,#FFEAA7
+00000000-0000-0000-0000-000000000016,カフェ併設,Located within cafe,#87CEEB
+00000000-0000-0000-0000-000000000017,工房見学,Factory tour included,#98FB98
+00000000-0000-0000-0000-000000000018,季節限定,Seasonal experiences,#F0E68C
+00000000-0000-0000-0000-000000000019,雨天対応,Available even in rain,#FFB347
+00000000-0000-0000-0000-000000000020,子ども用サイズ,Children's sizes available,#FF69B4
+00000000-0000-0000-0000-000000000021,グループ対応,Group bookings available,#32CD32
+00000000-0000-0000-0000-000000000022,プライベート,Private experiences,#FF4500
+00000000-0000-0000-0000-000000000023,ラグジュアリー,Luxury experiences,#9370DB
+00000000-0000-0000-0000-000000000024,手軽体験,Quick and easy experiences,#FFD700
+00000000-0000-0000-0000-000000000025,本格体験,Authentic traditional experiences,#00CED1
+00000000-0000-0000-0000-000000000026,SNS映え,Instagram-worthy experiences,#FF6347
+00000000-0000-0000-0000-000000000027,歴史解説,Historical explanations included,#20B2AA
+00000000-0000-0000-0000-000000000028,文化体験,Deep cultural immersion,#FF8C00
+00000000-0000-0000-0000-000000000029,アニメ・マンガ,Anime and manga related,#FF69B4
+00000000-0000-0000-0000-000000000030,ゲーム体験,Gaming experiences,#00FF7F
+00000000-0000-0000-0000-000000000031,キャラクターグッズ,Character merchandise,#FF1493
+00000000-0000-0000-0000-000000000032,VR体験,Virtual reality experiences,#8A2BE2
+00000000-0000-0000-0000-000000000033,eスポーツ,Esports experiences,#FF4500
+00000000-0000-0000-0000-000000000034,デジタルアート,Digital art experiences,#00CED1
+00000000-0000-0000-0000-000000000035,原宿系,Harajuku culture,#FFB6C1
+00000000-0000-0000-0000-000000000036,秋葉原系,Akihabara culture,#32CD32
+00000000-0000-0000-0000-000000000037,レトロ文化,Retro culture,#DDA0DD
+00000000-0000-0000-0000-000000000038,プリクラ,Photo booth experiences,#FF69B4
+00000000-0000-0000-0000-000000000039,カラオケ,Karaoke experiences,#FFD700
+00000000-0000-0000-0000-000000000040,ショッピング,Shopping experiences,#FF8C00
+00000000-0000-0000-0000-000000000041,屋内施設,Indoor facilities,#87CEEB
+00000000-0000-0000-0000-000000000042,混雑注意,Crowded locations,#FF6347
+00000000-0000-0000-0000-000000000043,限定商品,Limited edition items,#9370DB
+00000000-0000-0000-0000-000000000044,コラボ商品,Collaboration items,#FF1493
+00000000-0000-0000-0000-000000000045,展望台,Observation deck,#87CEEB
+00000000-0000-0000-0000-000000000046,夜景スポット,Night view spots,#4B0082
+00000000-0000-0000-0000-000000000047,無料入場,Free admission,#32CD32
+00000000-0000-0000-0000-000000000048,ドラッグストア,Drug store,#FF8C00
+00000000-0000-0000-0000-000000000049,百貨店,Department store,#DDA0DD
+00000000-0000-0000-0000-000000000050,文房具,Stationery,#20B2AA
+00000000-0000-0000-0000-000000000051,メガネ,Eyewear,#FFD700
+00000000-0000-0000-0000-000000000052,自然・公園,Nature and parks,#228B22
+00000000-0000-0000-0000-000000000053,湖・水辺,Lakes and waterside,#4682B4
+00000000-0000-0000-0000-000000000054,登山・ハイキング,Mountain hiking,#8FBC8F
+00000000-0000-0000-0000-000000000055,温泉,Hot springs,#FFA07A
+00000000-0000-0000-0000-000000000056,スパ,Spa,#DDA0DD
+00000000-0000-0000-0000-000000000057,ナイトライフ,Night life,#8B008B
+00000000-0000-0000-0000-000000000058,ライブハウス,Live house,#FF6347
+00000000-0000-0000-0000-000000000059,クラブ,Club,#9400D3
+00000000-0000-0000-0000-000000000060,バー,Bar,#B22222
+00000000-0000-0000-0000-000000000061,居酒屋,Izakaya,#DAA520
+00000000-0000-0000-0000-000000000062,桜・花見,Cherry blossoms,#FFB6C1
+00000000-0000-0000-0000-000000000063,祭り,Festival,#FF4500
+00000000-0000-0000-0000-000000000064,花火,Fireworks,#FF1493
+00000000-0000-0000-0000-000000000065,イルミネーション,Illumination,#FFD700
+00000000-0000-0000-0000-000000000066,美術館,Art museum,#4169E1
+00000000-0000-0000-0000-000000000067,現代アート,Contemporary art,#8A2BE2
+00000000-0000-0000-0000-000000000068,建築,Architecture,#708090
+00000000-0000-0000-0000-000000000069,動物園,Zoo,#228B22
+00000000-0000-0000-0000-000000000070,水族館,Aquarium,#00CED1
+00000000-0000-0000-0000-000000000071,テーマパーク,Theme park,#FF69B4
+00000000-0000-0000-0000-000000000072,キャラクターカフェ,Character café,#FF1493
+00000000-0000-0000-0000-000000000073,猫カフェ,Cat café,#DDA0DD
+00000000-0000-0000-0000-000000000074,工場見学,Factory tour,#4682B4
+00000000-0000-0000-0000-000000000075,職業体験,Job experience,#32CD32
+00000000-0000-0000-0000-000000000076,クルーズ,Cruise,#4169E1
+00000000-0000-0000-0000-000000000077,遊園地,Amusement park,#FF69B4
+00000000-0000-0000-0000-000000000078,観覧車,Ferris wheel,#87CEEB
+00000000-0000-0000-0000-000000000079,ハネムーン向け,Perfect for honeymoon couples,#FF69B4
+00000000-0000-0000-0000-000000000080,グループ旅行向け,Ideal for group travel,#32CD32
+00000000-0000-0000-0000-000000000081,若者に人気,Popular among young people,#FF1493
+00000000-0000-0000-0000-000000000082,シニアにも優しい,Senior-friendly experiences,#FFD700
