@@ -231,13 +231,16 @@ git checkout -b feature/travel-quiz
 pnpm install
 
 # 開発サーバー起動
-pnpm dev
+pnpm --filter web dev
 
 # テスト実行
 pnpm test
 
 # 本番用ビルド
-pnpm build
+pnpm --filter web build
+
+# 本番サーバー起動
+pnpm --filter web start
 ```
 
 ### 2. データベース変更
