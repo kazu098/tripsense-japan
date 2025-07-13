@@ -5,9 +5,8 @@ import Link from "next/link";
 import { createClient } from '@supabase/supabase-js';
 import {
   MdFamilyRestroom, MdFavorite, MdGroup, MdPerson, MdElderly,
-  MdMuseum, MdHistory, MdRestaurant, MdAnimation, MdFamilyRestroom as MdFamilyActivity,
-  MdBrush, MdCelebration, MdSpa, MdLandscape, MdShoppingBag,
-  MdNightlife, MdVisibility
+  MdHome, MdRestaurant, MdShoppingBag, MdCelebration, 
+  MdBrush, MdSpa, MdLandscape, MdNightlife, MdVisibility
 } from "react-icons/md";
 
 const supabase = createClient(
@@ -36,11 +35,11 @@ const whoOptions = [
 
 // カテゴリー名とMaterial Iconのマッピング
 const categoryIcons: Record<string, React.ReactElement> = {
-  "Cultural Experience": <MdMuseum size={48} />,
-  "Traditional Japan": <MdHistory size={48} />,
+  "Cultural Experience": <MdHome size={48} />,
+  "Traditional Japan": <MdHome size={48} />,
   "Gourmet": <MdRestaurant size={48} />,
-  "Pop Culture": <MdAnimation size={48} />,
-  "Family Activity": <MdFamilyActivity size={48} />,
+  "Pop Culture": <MdHome size={48} />,
+  "Family Activity": <MdFamilyRestroom size={48} />,
   "Art Architecture": <MdBrush size={48} />,
   "Festival Event": <MdCelebration size={48} />,
   "Relaxation": <MdSpa size={48} />,
@@ -133,7 +132,7 @@ export default function TravelStyleQuizPage() {
             {categories.map((cat) => {
               const name = cat.name_en || cat.name_ja || 'Category';
               const selected = selectedCategories.includes(cat.id);
-              const icon = categoryIcons[name] || <MdMuseum size={48} />;
+              const icon = categoryIcons[name] || <MdHome size={48} />;
               return (
                 <button
                   key={cat.id}
